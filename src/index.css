@@ -1,0 +1,12 @@
+/*connect Normalize*/
+@import url(./vendor/normalize.css);
+
+/*background-color HTML*/
+html,
+#root {
+  background-color: #202020;
+  color:#fff
+}
+
+/*connect fonts*/
+@import url(./vendor/fonts/fonts.css);
