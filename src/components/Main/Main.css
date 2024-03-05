@@ -1,0 +1,75 @@
+.main {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.main__label {
+    display: flex;
+    gap: 10px;
+}
+
+.main__input {
+    border-radius: 5px;
+    border: none;
+}
+
+.main__input-buton {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.main__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.main__list-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.main__list-item-checkbox {
+    border: none;
+    cursor: pointer;
+
+}
+
+.main__list-item-text {
+    font-size: 15px;
+}
+
+.main__list-item-delete-button {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: cornflowerblue;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input:checked + span {
+    text-decoration: line-through;
+}
