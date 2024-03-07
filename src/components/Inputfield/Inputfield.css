@@ -1,0 +1,22 @@
+.input-field__label {
+    display: flex;
+    gap: 10px;
+}
+
+.input-field__input {
+    border-radius: 5px;
+    border: none;
+}
+
+.input-field__input-buton {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    cursor: pointer;
+
+}
